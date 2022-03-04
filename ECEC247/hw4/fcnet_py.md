@@ -1,3 +1,10 @@
+# fc_net.py
+
+This file contains all the code for fc_net.py
+
+# Code
+
+```python
 import numpy as np
 from .layers import *
 from .layer_utils import *
@@ -349,3 +356,4 @@ class FullyConnectedNet(object):
     # ================================================================ #
     
     return loss, grads
+```

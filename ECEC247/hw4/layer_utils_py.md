@@ -1,3 +1,10 @@
+# Layers_utils.py
+
+This file contains all of the code contained in the layers_utils.py file.
+
+# Code
+
+```python
 from .layers import *
 
 
@@ -59,3 +66,4 @@ def affine_batchnorm_relu_backward(dout, cache):
   dbn, dgamma, dbeta = batchnorm_backward(da,bn_cache)
   dx, dw, db = affine_backward(dbn, fc_cache)
   return dx, dw, db, dgamma,dbeta
+```

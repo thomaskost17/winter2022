@@ -1,3 +1,11 @@
+# Layers.py
+
+This file contains all of the code contained in the layers.py file.
+
+# Code
+
+```python
+
 import numpy as np
 
 
@@ -423,3 +431,4 @@ def softmax_loss(x, y):
   dx[np.arange(N), y] -= 1
   dx /= N
   return loss, dx
+```
